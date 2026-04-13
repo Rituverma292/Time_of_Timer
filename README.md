@@ -16,6 +16,7 @@ A simple, responsive, and modern **Timer & Stopwatch Web Application** built usi
 * JavaScript (Vanilla JS) – Functionality
 
 ## 📸 Screenshots
+<img width="902" height="794" alt="image" src="https://github.com/user-attachments/assets/9b5c1bb3-01bd-44ce-9705-46c0f5a8061e" />
 
 
 
