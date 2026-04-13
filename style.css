@@ -1,0 +1,71 @@
+/* style.css */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+}
+
+.app {
+    width: 100%;
+    max-width: 350px;
+}
+
+.card {
+    background: #111;
+    padding: 30px;
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.6);
+    color: white;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 8px solid #00f2fe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    box-shadow: 0 0 20px #00f2fe;
+}
+
+#time {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.inputs input {
+    width: 45%;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+}
+
+.controls button {
+    margin: 8px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 12px;
+    background: #00f2fe;
+    color: black;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.controls button:hover {
+    transform: scale(1.1);
+    background: #4facfe;
+}
